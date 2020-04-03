@@ -4,4 +4,4 @@
 
 ## 有待解决
 
-@font-face iconface 的原理和使用技巧
+- 首页的header还没上图标、@font-face iconface 的原理和使用技巧 (7-2)
