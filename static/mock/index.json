@@ -1,3 +1,121 @@
 {
-    "title": "hello"
+    "ret": true,
+    "data": {
+        "city": "北京",
+        "swiperList": [
+            {
+                "id": "0001",
+                "imgUrl": "https://www.jetsetter.com/uploads/sites/7/2018/04/Yq6ObbTP-1380x690.jpeg"
+            },
+            {
+                "id": "0002",
+                "imgUrl": "https://www.pcma.org/wp-content/uploads/2019/08/Travel-tips.png"
+            }
+        ],
+        "iconList": [
+            {
+                "id": "0001",
+                "imgUrl": "http://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+                "desc": "酒店"
+            },
+            {
+                "id": "0002",
+                "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/flight.png",
+                "desc": "机票"
+            },
+            {
+                "id": "0003",
+                "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/train.png",
+                "desc": "火车票"
+            },
+            {
+                "id": "0004",
+                "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/package.png",
+               " desc": "度假"
+            },
+            {
+                "id": "0005",
+                "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/piao.png",
+                "desc": "景点门票"
+            },
+            {
+                "id": "0006",
+                "imgUrl": "http://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+                "desc": "酒店"
+            },
+            {
+                "id": "0007",
+                "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/flight.png",
+                "desc": "机票"
+            },
+            {
+                "id": "0008",
+                "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/train.png",
+                "desc": "火车票"
+            },
+            {
+                "id": "0009",
+                "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/package.png",
+                "desc": "度假"
+            }
+        ],
+        "recommendList": [
+            {
+                "id": "0001",
+                "imgUrl": "//dimg07.c-ctrip.com/images/100e0h0000008rp39A12F_C_221_166.jpg",
+                "title": "故宫",
+                "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+            },
+            {
+                "id": "0002",
+                "imgUrl": "//dimg07.c-ctrip.com/images/100e0h0000008rp39A12F_C_221_166.jpg",
+                "title": "故宫",
+                "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+            },
+            {
+                "id": "0003",
+                "imgUrl": "//dimg07.c-ctrip.com/images/100e0h0000008rp39A12F_C_221_166.jpg",
+                "title": "故宫",
+                "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+            },
+            {
+                "id": "0004",
+                "imgUrl": "//dimg07.c-ctrip.com/images/100e0h0000008rp39A12F_C_221_166.jpg",
+                "title": "故宫",
+                "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+            },
+            {
+                "id": "0005",
+                "imgUrl": "//dimg07.c-ctrip.com/images/100e0h0000008rp39A12F_C_221_166.jpg",
+                "title": "故宫",
+                "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+            },
+            {
+                "id": "0006",
+                "imgUrl": "//dimg07.c-ctrip.com/images/100e0h0000008rp39A12F_C_221_166.jpg",
+                "title": "故宫",
+                "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+            }
+        ],
+        "weekendList": [
+            {
+                "id": "0001",
+                "imgUrl": "https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg",
+                "title": "北京温泉排行榜",
+                "desc": "细数北京温泉，温暖你的冬天"
+            },
+            {
+                "id": "0002",
+                "imgUrl": "https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg",
+                "title": "北京温泉排行榜",
+                "desc": "细数北京温泉，温暖你的冬天"
+            },
+            {
+                "id": "0003",
+                "imgUrl": "https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg",
+                "title": "北京温泉排行榜",
+                "desc": "细数北京温泉，温暖你的冬天"
+            }
+        ]
+    }
 }

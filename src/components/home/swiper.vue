@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <swiper ref="mySwiper" :options="swiperOptions">
-        <swiper-slide v-for="item of swiperList" :key="item.id">
+        <swiper-slide v-for="item of list" :key="item.id">
             <img class="swiper-img" :src="item.imgUrl" />
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
@@ -13,6 +13,10 @@
 export default {
   name: 'HomeSwiper',
 
+  props: {
+    list: Array
+  },
+
   data(){
     return {
         swiperOptions: {
@@ -20,18 +24,7 @@ export default {
             el: '.swiper-pagination',
             loop: true
           },
-        },
-
-        swiperList:[
-              {
-                  id: '0001',
-                  imgUrl: "https://www.jetsetter.com/uploads/sites/7/2018/04/Yq6ObbTP-1380x690.jpeg"
-              },
-              {
-                  id: '0002',
-                  imgUrl: "https://www.pcma.org/wp-content/uploads/2019/08/Travel-tips.png"
-              }
-          ]
+        }
     }
   },
 

@@ -2,7 +2,7 @@
     <div>
         <div class="recommend-title">周末去哪</div>
         <ul>
-            <li class="item" v-for="item of recommendList" :key="item.id">
+            <li class="item" v-for="item of list" :key="item.id">
                 <div class="item-img-wrapper">
                     <img class="item-img" :src='item.imgUrl' />
                 </div>
@@ -18,47 +18,12 @@
 <script>
 export default {
     name: 'HomeWeekend',
-
+    props: {
+        list: Array
+    },
     data () {
         return {
-            recommendList: [
-                {
-                    id: '0001',
-                    imgUrl: 'https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg',
-                    title: '大连圣亚海洋世界',
-                    desc: '浪漫大连首站，浪漫的海洋主题乐园',
-                },
-                {
-                    id: '0002',
-                    imgUrl: 'https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg',
-                    title: '大连圣亚海洋世界',
-                    desc: '浪漫大连首站，浪漫的海洋主题乐园',
-                },
-                {
-                    id: '0003',
-                    imgUrl: 'https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg',
-                    title: '大连圣亚海洋世界',
-                    desc: '浪漫大连首站，浪漫的海洋主题乐园',
-                },
-                {
-                    id: '0004',
-                    imgUrl: 'https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg',
-                    title: '大连圣亚海洋世界',
-                    desc: '浪漫大连首站，浪漫的海洋主题乐园',
-                },
-                {
-                    id: '0005',
-                    imgUrl: 'https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg',
-                    title: '大连圣亚海洋世界',
-                    desc: '浪漫大连首站，浪漫的海洋主题乐园',
-                },
-                {
-                    id: '0006',
-                    imgUrl: 'https://dimg04.c-ctrip.com/images/3507180000014tiu9EF0E_C_280_158.jpg',
-                    title: '大连圣亚海洋世界',
-                    desc: '浪漫大连首站，浪漫的海洋主题乐园',
-                }
-            ]
+
         }
     }
 }
