@@ -2,7 +2,9 @@
   <div class="header">
       <div class="header-left">返回</div>
       <div class="header-input">搜索内容</div>
-      <div class="header-right">{{this.city}}</div>
+      <router-link to="/city">
+        <div class="header-right">{{this.city}}</div>
+      </router-link>
   </div>
 </template>
 
@@ -21,7 +23,8 @@ export default {
 .header
 {
     display: flex
-    line-height 0.86rem
+    height: $headerHeight
+    line-height: $headerHeight
     background: $bgColor
     color: #fff
     font-size: 40%
@@ -46,6 +49,7 @@ export default {
         width: 2.24rem
         float: right
         text-align: center
+        color: white
     }
 }
 
