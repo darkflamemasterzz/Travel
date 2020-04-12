@@ -3,7 +3,7 @@
       <div class="header-left">返回</div>
       <div class="header-input">搜索内容</div>
       <router-link to="/city">
-        <div class="header-right">{{this.city}}</div>
+        <div class="header-right">{{this.$store.state.city}}</div>
       </router-link>
   </div>
 </template>
@@ -11,9 +11,7 @@
 <script>
 export default {
   name: 'HomeHeader',
-  props: {
-    city: String
-  }
+
 }
 </script>
 

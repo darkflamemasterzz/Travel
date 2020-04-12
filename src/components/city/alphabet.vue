@@ -37,6 +37,7 @@ export default {
     },
     methods: {
         handleLetterClick (e) {
+            console.log("click alphabet")
             this.$emit('change', e.target.innerText)
         },
         handleTouchStart () {

@@ -12,6 +12,7 @@
             <li class="search-item border-bottom" 
                 v-for="item of list" 
                 :key="item.id"
+                @click="handleCityClick(item.name)"
             >
                 {{item.name}}
             </li>
@@ -37,6 +38,12 @@ export default {
             timer: null
         }
     },
+    methods: {
+        handleCityClick (city) {
+            this.$store.commit('changeCity', city)
+            this.$router.push('/')
+        }
+    },
     watch: {
         keyword () {
             if (this.timer) {
@@ -60,7 +67,7 @@ export default {
         }
     },
     mounted () {
-        this.scroll = new Bscroll(this.$refs.search)
+        this.scroll = new Bscroll(this.$refs.search, { mouseWheel: true, click: true, tap: true })
     }
 }
 </script>
