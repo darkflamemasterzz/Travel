@@ -7,16 +7,19 @@
                 <div class="bannar-number">39</div>
             </div>
         </div>
-        <common-gallary 
-            :imgs="bannerImgs" 
-            v-show="showGallary"
-            @close="handleGallaryClose"
-        ></common-gallary>
+        <Fade>
+            <common-gallary 
+                :imgs="bannerImgs" 
+                v-show="showGallary"
+                @close="handleGallaryClose"
+            ></common-gallary>
+        </Fade>
     </div>
 </template>
 
 <script>
 import CommonGallary from 'common/gallary/Gallary'
+import Fade from 'common/fade/fade'
 export default {
     name: 'DetailBanner',
     props: {
@@ -25,7 +28,8 @@ export default {
         bannerImgs: Array
     },
     components: {
-        CommonGallary
+        CommonGallary,
+        Fade
     },
     data () {
         return {
