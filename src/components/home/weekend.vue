@@ -36,7 +36,9 @@ export default {
     margin-top: .2rem
     line-height : .8rem
     background: #eee
-    text-indent: .2rem
+    text-indent: .3rem
+    font-size: 0.3rem
+    font-weight: 500
 }
 .item{
     overflow hidden
@@ -58,12 +60,13 @@ export default {
         padding: .1rem
         .item-title{
             line-height: .54rem
-            font-size: .32rem
+            font-size: .4rem
             ellipsis()
         }
         .item-desc{
             line-height: .4rem
             color: #ccc
+            font-size: .28rem
         }
     }
 }

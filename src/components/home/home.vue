@@ -49,6 +49,7 @@ export default {
         const data = res.data
         this.swiperList = data.swiperList
         this.iconList = data.iconList
+        console.log(this.iconList)
         this.recommendList = data.recommendList
         this.weekendList = data.weekendList
       }
